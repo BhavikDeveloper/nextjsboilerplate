@@ -1,0 +1,44 @@
+{
+  "name": "next-boilerplate-styled",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint",
+    "lint 1": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "device-uuid": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment-mini": "^2.24.0",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "17.0.2",
+    "react-ga": "^3.3.0",
+    "react-html-parser": "^2.0.2",
+    "react-loader-spinner": "^3.1.14",
+    "react-share": "^4.4.0",
+    "slick-carousel": "^1.8.1",
+    "svg-inline-react": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-unused-imports": "^1.1.4",
+    "next-images": "^1.8.4",
+    "react-bootstrap": "^1.4.0",
+    "react-slick": "^0.25.2",
+    "styled-components": "^5.3.3",
+    "sweetalert2": "^10.12.4"
+  }
+}
